@@ -1,0 +1,79 @@
+/* General styling for the entire page */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+    background-color: #f8f9fa; /* Light background color */
+    color: #333; /* Text color */
+}
+
+/* Styling for the main content container */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px; /* Add padding for better spacing */
+    background-color: #fff; /* White background */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+    border-radius: 10px; /* Rounded corners */
+}
+
+/* Styling for generic div elements */
+div {
+    margin-bottom: 20px;
+}
+
+/* Styling for labels */
+label {
+    display: block;
+    margin-bottom: 10px; /* Slightly reduce the margin */
+    color: #555; /* Slightly darker label text color */
+}
+
+/* Styling for input and select elements */
+input, select {
+    padding: 12px; /* Increase input padding */
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #3498db; /* Border color */
+    border-radius: 8px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+/* Focus styles for input and select elements */
+input:focus, select:focus {
+    outline: none;
+    border-color: #3498db; /* Focus color */
+    box-shadow: 0 0 10px rgba(52, 152, 219, 0.5); /* Light box shadow on focus */
+}
+
+/* Styling for buttons */
+button {
+    padding: 14px; /* Increase button padding */
+    cursor: pointer;
+    background-color: #9c34db; /* Purple */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+/* Styling for the random color button */
+.randColor {
+    background-color: #9c34db; /* Purple */
+}
+
+/* Hover effect for the random color button */
+.randColor:hover {
+    background-color: #a1009c; /* Darker purple on hover */
+}
+
+/* Styling for images */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 20px; /* Increase top margin */
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Lighter box shadow */
+}
+
+
